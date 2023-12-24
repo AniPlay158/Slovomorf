@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void generateFunnyWords(const string* words, int size)
+void GenerateFunnyWords(const string* words, int size)
 {
     cout << "Смешные слова:\n";
 
@@ -49,7 +49,7 @@ int main()
 
     inFile.close();
 
-    generateFunnyWords(words, size);
+    GenerateFunnyWords(words, size);
 
     delete[] words;
 }
